@@ -1,0 +1,11 @@
+
+API: http://127.0.0.1:5000/
+
+END-POINTS:
+------------
+1) / --> method "GET"  --> Returns a message indicating backend works successfully
+2) /posts/ --> method "GET" --> Returns all post (items) in the database
+3) /posts/PostId --> method "GET" --> Returns a spEcific / specified post (items)
+3) /posts/ --> method "POST" --> Creates a new post (item)
+4) /posts/podstId  --> method "PATCH" --> Updates a post (item)
+5) /posts/postID  --> method "DELETE" --> Deletes a post (item)
